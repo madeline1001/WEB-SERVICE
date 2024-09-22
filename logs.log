@@ -1,0 +1,140 @@
+2024-09-20 13:25:20,463:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:25:20,463:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:25:20,463:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:25:20,464:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:26:06,600:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:26:06,897:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:26:06,897:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:26:06,897:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:29:34,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:29:34,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:29:34,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:29:34,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:10,548:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:10,654:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:10,654:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:10,654:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:50,409:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:50,409:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:50,409:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:50,409:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-20 13:37:54,010:INFO:Initializing predict_model()
+2024-09-20 13:37:54,010:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000018DD286F280>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Avg. Session Length',
+                                             'Time on App', 'Time on Website',
+                                             'Length of Membership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=OneHotEncoder(cols=['dominio',
+                                                                    'Tec'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', Ridge(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000018DD3BC9CF0>)
+2024-09-20 13:37:54,011:INFO:Checking exceptions
+2024-09-20 13:37:54,011:INFO:Preloading libraries
+2024-09-20 13:37:54,012:INFO:Set up data.
+2024-09-20 13:37:54,020:INFO:Set up index.
+2024-09-22 17:19:23,597:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-22 17:19:23,721:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-22 17:19:23,722:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-22 17:19:23,722:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-09-22 17:20:22,615:INFO:Initializing predict_model()
+2024-09-22 17:20:22,616:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019C1405FEB0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Avg. Session Length',
+                                             'Time on App', 'Time on Website',
+                                             'Length of Membership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=OneHotEncoder(cols=['dominio',
+                                                                    'Tec'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', Ridge(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019C153B9CF0>)
+2024-09-22 17:20:22,617:INFO:Checking exceptions
+2024-09-22 17:20:22,617:INFO:Preloading libraries
+2024-09-22 17:20:22,618:INFO:Set up data.
+2024-09-22 17:20:22,631:INFO:Set up index.
+2024-09-22 17:20:31,444:INFO:Initializing predict_model()
+2024-09-22 17:20:31,444:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019C1405C430>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Avg. Session Length',
+                                             'Time on App', 'Time on Website',
+                                             'Length of Membership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=OneHotEncoder(cols=['dominio',
+                                                                    'Tec'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', Ridge(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019C153BA950>)
+2024-09-22 17:20:31,546:INFO:Checking exceptions
+2024-09-22 17:20:31,546:INFO:Preloading libraries
+2024-09-22 17:20:31,546:INFO:Set up data.
+2024-09-22 17:20:31,557:INFO:Set up index.
+2024-09-22 17:20:34,628:INFO:Initializing predict_model()
+2024-09-22 17:20:34,628:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019C153BF3D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Avg. Session Length',
+                                             'Time on App', 'Time on Website',
+                                             'Length of Membership'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['dominio', 'Tec'],
+                                    transformer=OneHotEncoder(cols=['dominio',
+                                                                    'Tec'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator', Ridge(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019C153BAA70>)
+2024-09-22 17:20:34,629:INFO:Checking exceptions
+2024-09-22 17:20:34,629:INFO:Preloading libraries
+2024-09-22 17:20:34,629:INFO:Set up data.
+2024-09-22 17:20:34,640:INFO:Set up index.
